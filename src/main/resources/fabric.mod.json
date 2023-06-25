@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ocarinasCrate",
+  "version": "${version}",
+
+  "name": "ocarina's Crate",
+  "description": "Just trying to add new stuff to minecraft while learning how to develop new mods",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/ocarinasCrate/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+          "mixins": [
+        "ocarinasCrate.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+              "fabric": "*",
+          "minecraft": "${minecraft_version}"
+  }
+}
